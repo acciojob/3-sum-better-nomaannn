@@ -6,7 +6,7 @@ let ans = 0;
 
 for(let i=0; i<arr.length;i++){
 
-for(let j=i+1;jarr.length;i++){
+for(let j=i+1;j<arr.length;i++){
 
 for (let k=j+1;k<arr.Length;i++){
 
