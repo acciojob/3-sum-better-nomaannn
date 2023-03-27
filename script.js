@@ -12,7 +12,7 @@ for (let k=j+1;k<arr.Length;i++){
 
 let sum = arr[i]+arr[j]+tarr[k]
 
-if(Math.abs(sub-target) <= min){
+if(Math.abs(sum-target) <= min){
 
 min=Math.abs(sum-target);
 	ans= sum
