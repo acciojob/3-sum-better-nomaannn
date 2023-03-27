@@ -14,13 +14,14 @@ let sum = arr[i]+arr[j]+tarr[k]
 
 if(Math.abs(sub-target) <= min){
 
-in-Math.abs(sum-target);
-
+min=Math.abs(sum-target);
+	ans= sum
 }
 
 }
 
-ans = sum;
+}
+
 
 
 
