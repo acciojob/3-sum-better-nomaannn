@@ -10,9 +10,9 @@ for(let j=i+1;jarr.length;i++){
 
 for (let k-j+1;k<arr.Length;i++){
 
-let sum = arr[i]arr[1]tarr[R
+let sum = arr[i]arr[j]tarr[k]
 
-if(Math.abs(sub-target) comin){
+if(Math.abs(sub-target) <= min){
 
 in-Math.abs(sum-target);
 
