@@ -10,7 +10,7 @@ for(let j=i+1;jarr.length;i++){
 
 for (let k=j+1;k<arr.Length;i++){
 
-let sum = arr[i]+arr[j]+tarr[k]
+let sum = arr[i]+arr[j]+arr[k]
 
 if(Math.abs(sum-target) <= min){
 
