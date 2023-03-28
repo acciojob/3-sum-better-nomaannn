@@ -10,7 +10,7 @@ for (let i = 0; i < arr.length-2; i++) {
 			if(arr[i]+arr[j]+arr[k]>=target){
 				 ans = arr[i]+arr[j]+arr[k] - target;
 				if(ans<min){
-					min = ans;
+					ans = min;
 				}
 			}
 		}
