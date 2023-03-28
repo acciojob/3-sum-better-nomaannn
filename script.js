@@ -4,27 +4,17 @@ function threeSum(arr, target) {
 
 let ans = 0;
 
-for(let i=0; i<arr.length;i++){
-
-for(let j=i+1;j<arr.length;j++){
-
-for (let k=j+1;k<arr.Length;k++){
-
-let sum = arr[i]+arr[j]+arr[k]
-
-if(Math.abs(sum-target) <= min){
-
-min=Math.abs(sum-target);
-	ans= sum
-}
-
-}
-
-}
-
-
-
-
+for (let i = 0; i < arr.length; i++) {
+	for (let j = i+1; j < arr.length; j++) {
+		for (let k = j+1; k < arr.length; k++) {
+			if(arr[i]+arr[j]+arr[k]>=target){
+				 ans = arr[i]+arr[j]+arr[k] - target;
+				if(ans<min){
+					min = ans;
+				}
+			}
+		}
+	}
 }
 
 
