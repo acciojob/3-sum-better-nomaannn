@@ -1,6 +1,6 @@
 function threeSum(arr, target) {
 // write your code here
-  let min = Number.MAX_VALUE;
+  let min = 0;
 
 let ans = 0;
 
